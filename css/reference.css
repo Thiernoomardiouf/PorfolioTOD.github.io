@@ -1,0 +1,41 @@
+.reference {
+    padding: 100px 0px;
+}
+.reference-content {
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.test-img img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.reference-text p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 24px;
+    color: black;
+    margin: 0; 
+    
+}
+@media(min-width: 600px) {
+    .reference-box{
+        display: flex;
+    }
+    .reference-img {
+        margin-bottom: 15px;
+        border: 1px solid rgb(226, 221, 221);
+        padding: 40px 20px;
+        border-radius: 4px;
+        flex-wrap: nowrap;
+        float: left;
+        width: 100%;
+    } 
+  }
+
+  .reference .title h1::before {
+    left: 30%;
+}
