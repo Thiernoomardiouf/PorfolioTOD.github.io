@@ -3,16 +3,6 @@ footer {
     background-color: #01143e;
 }
 
-.footer-logo {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-    font-size: 45px;
-    font-family: 'Nunito Sans';
-    color: rgb(236, 241, 250);
-    font-weight: 900;
-}
-
 .social-link {
     flex: 0 0 100%;
     max-width: 100%;
@@ -36,11 +26,43 @@ footer {
     border-top: 2px solid #fff;
     padding: 15px;
 }
-
-.copyright p {
-    margin: 0;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    color: rgb(236, 241, 250);
+@media(min-width: 600px){
+    .footer-logo {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Nunito Sans';
+        color: rgb(236, 241, 250);
+        font-weight: 900;
+    }
+} 
+@media(max-width: 600px){
+    .footer-logo {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Nunito Sans';
+        color: rgb(236, 241, 250);
+        font-weight: 900;
+    }
+}
+@media(min-width: 600px){
+    .copyright p {
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(236, 241, 250);
+    }
+} 
+@media(max-width: 600px){
+    .copyright p {
+        margin: 0;
+        text-align: center;
+        font-size: 9px;
+        font-weight: 400;
+        color: rgb(236, 241, 250);
+    }
 }

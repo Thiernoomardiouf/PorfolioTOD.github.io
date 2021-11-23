@@ -197,8 +197,16 @@
     margin: 0px 0px 10px;
     position: relative;
 }
-.message .message-text p{
-    font-size: 25px;
-    font-weight: bold;
-}
 
+@media(min-width: 600px){
+    .message .message-text p{
+        font-size: 25px;
+        font-weight: bold;
+    }
+} 
+@media(max-width: 600px){
+    .message .message-text p{
+        font-size: 18px;
+        font-weight: bold;
+    }
+} 
