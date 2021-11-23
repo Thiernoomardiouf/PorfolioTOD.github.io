@@ -126,3 +126,8 @@
 .social a .fa:hover {
   color: #000;
 }
+@media(max-width: 600px){
+   .profil {
+     text-align: center;
+   }
+} 

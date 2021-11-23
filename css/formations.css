@@ -1,0 +1,40 @@
+.formations {
+    background-color: #fff;
+    padding: 40px 0px;
+}
+.formations .title h1::before {
+    left: 30%;
+}
+
+
+  @media(min-width: 600px) {
+    .formation-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .bloc {
+        background-color: #fff;
+        flex: 0 0 calc(33.33% - 20px);
+        max-width: calc(33.33% - 20px);
+        margin-bottom: 30px;
+        
+        border-radius: 5px;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+      }
+      .bloc1, .bloc2{
+        border-right: 1rem solid #E5E5E5;
+      }
+   
+  }
+  @media(max-width: 600px) {
+      .bloc{
+          text-align: center;
+          padding: 10px 60px;
+      }
+}

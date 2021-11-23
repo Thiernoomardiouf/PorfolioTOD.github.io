@@ -13,8 +13,10 @@
       <link href="./css/service.css" rel="stylesheet" />
       <link href="./css/portfolio.css" rel="stylesheet" />
       <link href="./css/reference.css" rel="stylesheet" />
+      <link href="./css/formations.css" rel="stylesheet" />
       <link href="./css/contact.css" rel="stylesheet" />
       <link href="./css/footer.css" rel="stylesheet" />
+      <link rel="stylesheet" href="./css/competence.css">
    </head>
    <body>
       <header>
@@ -30,12 +32,12 @@
                   <ul>
                      <li><a href="#home" class="active">Acceuil</a></li>
                      <li><a href="#about">Profil</a></li>
-                     <li><a href="#services">Formations</a></li>
-                     <li><a href="#portfolio">Compétences</a></li>
+                     <li><a href="#formations">Formations</a></li>
+                     <li><a href="#services">Compétences</a></li>
                      <li><a href="#blog">Qualités Personnelles</a></li>
-                     <li><a href="#contact">Expérience</a></li>
-                     <li><a href="#contact">Références</a></li>
-                     <li><a href="#contact">Centre d'intéret</a></li>
+                     <li><a href="#portfolio">Expérience</a></li>
+                     <li><a href="#reference">Références</a></li>
+                     <li><a href="#centre">Centre d'intéret</a></li>
                   </ul>
                </div>
             </div>
@@ -60,7 +62,7 @@
       <section class="about" id="about">
          <div class="container">
          <div class="row">
-            <div class="title">
+            <div class="title profil">
                <h1>Mon Profil</h1>
                <p>En savoir plus sur moi</p>
             </div>
@@ -168,6 +170,35 @@
             </div>
          </div>
       </section>
+       <section class="formations" id="formations">
+        <div class="container">
+           <div class="row">
+               <div class="title text-center">
+                  <h1>Formations</h1>
+               </div>
+            </div>
+            <div class="row">
+                <div class="formation-content">
+                    <div class="bloc bloc1">
+                        <h2>2018-2019</h2>
+                        <p>Licence 3 en Informatique <br> option  Génie Logiciél <br> à UNIPRO
+                        </p>
+                     </div>
+                     <div class="bloc bloc2">
+                        <h2>2017-2018</h2>
+                        <p>Licence 3 en Informatique option <br> système d’information <br> à l’université Gaston Berger <br> de Saint-Louis
+                        </p>
+                     </div>
+                     <div class="bloc">
+                        <h2>2017-2018</h2>
+                        <p> Baccalauréat scientifique au <br> lycée d’enseignement général <br> de Diourbel
+                        </p>
+                     </div>
+                </div>
+             </div>
+        </div>
+        </section>
+     </section>
       <section class="portfolio" id="portfolio">
          <div class="container">
             <div class="row">
@@ -189,22 +220,22 @@
                <div class="gallery">
                   <div class="item" data-id="web">
                      <div class="inner">
-                        <img src="./img/portfolio/web.jpg" alt="portfolio"/>
+                        <img src="./img/portfolio/web2.png" alt="portfolio"/>
                         <div class="overlay">
                            <span class="fa fa-plus"></span>
-                           <h4>Développeur web</h4>
+                           <h4>Création de sites web</h4>
                         </div>
                      </div>
                   </div>
                   <div class="item" data-id="web">
-                     <div class="inner">
-                        <img src="./img/portfolio/web2.png" alt="portfolio"/>
-                        <div class="overlay">
-                           <span class="fa fa-plus"></span>
-                           <h4>Création de sites we</h4>
-                        </div>
-                     </div>
-                  </div>
+                    <div class="inner">
+                       <img src="./img/portfolio/web.jpg" alt="portfolio"/>
+                       <div class="overlay">
+                          <span class="fa fa-plus"></span>
+                          <h4>Développeur web</h4>
+                       </div>
+                    </div>
+                 </div>
                   <div class="item" data-id="app">
                      <div class="inner">
                         <img src="./img/portfolio/app.png" alt="portfolio"/>
@@ -245,7 +276,7 @@
             </div>
          </div>
       </section>
-      <section class="message">
+      <section class="message" id="centre">
          <div class="container">
             <div class="row align-items-center">
                <div class="message-text">
@@ -257,7 +288,7 @@
             </div>
          </div>
       </section>
-      <section class="reference">
+      <section class="reference" id="reference">
          <div class="container">
             <div class="row">
                <div class="title text-center">
